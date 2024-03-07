@@ -1,0 +1,187 @@
+@media only screen and (max-width: 600px) {
+    /* Penyesuaian ukuran font */
+    body {
+        font-size: 14px;
+    }
+
+    /* Penyesuaian lebar gambar */
+    .about-image img {
+        width: 100%;
+    }
+
+    /* Penyesuaian lebar tabel */
+    .education table {
+        width: 100%;
+    }
+}
+
+/* Penyesuaian tata letak */
+.nav {
+    text-align: center;
+}
+
+/* Pengaturan lebar untuk navigasi */
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(62, 121, 184);
+    color: #333;
+    padding-top: 50px; 
+}
+li,
+p {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 700; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px 20px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #555; 
+}
+
+
+h1, h2, h3 {
+    color: #007bff;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-top: 50px; 
+    text-align: left;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: -20px auto 15px; /* Nilai negatif pada margin-top */
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+}
+
+/* CSS for education section */
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education th, .education td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.education th {
+    background-color: #f2f2f2;
+}
+
+.education tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.education ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.education ul li {
+    margin-bottom: 5px;
+}
+
+
+  
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+    margin: 0 50px; 
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.certificate-images img {
+    display: block;
+    margin: 15px auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 0; /* Menghapus sudut bulat */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.certificate-images img:hover {
+    transform: scale(1.1);
+}
